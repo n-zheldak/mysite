@@ -1,0 +1,36 @@
+h1 {
+	color: red;
+}
+
+.text {
+	color: white;
+	background: blue;
+	border: 2px solid blue;
+	width: 100px;
+	margin-bottom: 100px;
+}
+
+.list {
+	border: 1px solid black;
+	font-size: 30px;
+}
+
+span {
+	color: red;
+}
+img {
+	width: 150px;
+}
+
+h2.title {
+	padding: 50px;
+}
+h2 {
+	color: white;
+	background: green;
+	padding: 5px;
+}
+
+.new {
+	margin-left: 100px;
+}
