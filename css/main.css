@@ -56,7 +56,6 @@ p {
 	font-size: 59px;
 }
 
-
 .intro {
 	margin-bottom: 43px;
 	margin-top: 43px;
@@ -78,7 +77,6 @@ p {
 .btn:hover {
 	background: #ffba00;
 }
-
 .desktop {
 	margin-top: 5;
 	margin-right: -40px;
@@ -140,12 +138,15 @@ p {
 
 .form {
 	margin-top: 70px;
-	margin-left: 411px;
 }
 
+.form input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ }
 
 .input {
-	display: block;
 	padding-left: 30px;
 	font-family: 'Ubuntu', sans-serif;
 	width: 340px;
@@ -156,12 +157,14 @@ p {
 	margin-top: 16px;
 }
 
-
 .btn-form {
 	width: 340px;
  	border: 0;
  	font-size: 15px;
  	margin-top: 16px;
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
  	border-radius: 3px;
  	cursor: pointer;
 }
@@ -175,5 +178,94 @@ p {
 	font-size: 14px;
 	color: #fff;
 	margin: 0;
-	margin-left: 413px;
+	text-align:center;
 }	
+
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	
+	.container {
+		width: 720px;
+	}
+	
+	.wrapper {
+		flex-direction: column;
+	}
+	
+	.offer {
+		width: 100%;
+	}
+
+	.intro {
+		width: auto;
+	}
+	
+	.desktop {
+		display: block;
+    	margin: 5px auto 0;
+    	width: 641px;
+	}
+     
+	br {
+  		display: none;
+	}
+
+	.advantage {
+		margin-right: 35px;
+	}	
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.desktop {
+		width: 100%
+	}
+	.advantages {
+		flex-direction: column;
+	}
+	.advantage {
+		width: auto;
+		margin-bottom: 30px;
+		margin-right: 0;
+	}
+
+	.expectations {
+		padding-bottom: 65px
+	}
+
+	.offer {
+		margin-top: 100px;
+	}
+
+	.header {
+		padding-bottom: 65px;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	.input {
+		width: 100%;
+	}
+
+	.btn {
+		width: 100%;
+	}
+}
