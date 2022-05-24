@@ -36,7 +36,6 @@ p {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
 	padding-top: 60px;
 	padding-bottom: 93px;
-
 }
 
 .wrapper {
@@ -74,16 +73,15 @@ p {
 	text-align: center;
 	text-decoration: none;
 	transition: all 0.5s ease;
-
 }
 
 .btn:hover {
 	background: #ffba00;
 }
+
 .desktop {
 	margin-top: 5;
 	margin-right: -40px;
-
 }
 
 .expectations{
@@ -116,9 +114,7 @@ p {
 }
 
 .advantage-text {
- 	
  	font-size: 15px;
-
 }
 
 .advantage-time {
@@ -140,13 +136,11 @@ p {
 	background: #ECF3F8;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	
 }
 
 .form {
 	margin-top: 70px;
 	margin-left: 411px;
-	
 }
 
 
