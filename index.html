@@ -1,177 +1,93 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	padding: 0;
-	margin: 0;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Верстка сайта</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<img src="img/logo.png" alt="wayup" class="logo">
+			<div class="wrapper">
+				<div class="offer">
+					<h1 class="title">
+						С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span> 
+					</h1>
+					<p class="intro">
+						Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это <br>на 100%. Меня не остановить!
+					</p>
+					<a href="#" class="btn">Двигаться к мечте!</a>
+				</div>
+				<img src="img/desktop.png" alt="code desktop" class="desktop">
+			</div>
+		</div>
 
-div, p, input, button, form, span, a {
-	box-sizing: border-box;
-}
+	</header>
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	font-family: 'Ubuntu';
-	font-weight: 700;
-}
-
-p {
-	line-height: 1.66em;
-}
-
-.container {
-	width: 1170px;
-	margin: 0 auto;
-}
-
-.header {
-	color: white;
-	background: rgba(78,189,254,1);
-	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
-	background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-	background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
-	padding-top: 60px;
-	padding-bottom: 93px;
-}
-
-.wrapper {
-	display: flex;
-	justify-content: space-between;
-}
-
-.offer {
-	margin-top: 140px;
-	width: 548px;
-}
-
-.title {
-	font-size: 37px;
-}
-
-.title span {
-	font-size: 59px;
-}
+	<section id="expectations" class="expectations">
+		<div class="container">
+			<h2 class="section-title">
+				Что меня ждет впереди
+			</h2>
+			<div class="advantages">
+				<div class="advantage advantage-time">
+					<h3 class="advantage-tittle">
+						Свободное время
+					</h3>
+					<p class="advantage-text">
+						Мне нужно свободное время на семью и самое настоящее
+					</p>
+				</div>
+				<div class="advantage advantage-travel">
+					<h3 class="advantage-tittle">
+						Яркие путешествия
+					</h3>
+					<p class="advantage-text">
+						Работать откуда угодно - что может быть лучше?
+					</p>
+				</div>
+				<div class="advantage advantage-values">
+					<h3 class="advantage-tittle">
+						Создание ценности
+					</h3>
+					<p class="advantage-text">
+						Нет ничего сильнее, чем жить не просто так, создавая ценность
+					</p>
+				</div>
+			</div>
+		</div>
 
 
-.intro {
-	margin-bottom: 43px;
-	margin-top: 43px;
-	width: 390px;
-}
-
-.btn {
-	font-family: Montserrat, sans-serif;
-	background: #FFD429;
-	color: black;
-	display: block;
-	width: 222px;
-	padding: 20px 0;
-	text-align: center;
-	text-decoration: none;
-	transition: all 0.5s ease;
-}
-
-.btn:hover {
-	background: #ffba00;
-}
-
-.desktop {
-	margin-top: 5;
-	margin-right: -40px;
-}
-
-.expectations{
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
-.section-title {
-	font-size: 30px;
-	text-align: center;
-}
-
-.advantages {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 70px;
-	text-align: center;
-}
-
-.advantage {
-	width: 283px;
-	padding-top: 90px;
-	font-family: 'Ubuntu';
-	font-weight: 400;
-}
-
-.advantage-tittle {
-	font-size: 19px;
-}
-
-.advantage-text {
- 	font-size: 15px;
-}
-
-.advantage-time {
-	background: url('../img/ic1.png')  no-repeat center top;
-	margin-right: 131px;
-}
-
-.advantage-travel {
-	background: url('../img/ic2.png')  no-repeat center top;
-	margin-right: 124px;
-}
-
-.advantage-values {	
-	background: url('../img/ic3.png')  no-repeat center top;
-	width: 293px;
-}
-
-.request {
-	background: #ECF3F8;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	
-}
-
-.form {
-	margin-top: 70px;
-	margin-left: 411px;
-}
-
-.input {
-	display: block;
-	padding-left: 30px;
-	font-family: 'Ubuntu', sans-serif;
-	width: 340px;
-	border: 1px solid #C9C9C9;
-	border-radius: 3px;
-	height: 56px;
-	font-size: 14px;
-	margin-top: 16px;
-	}
-
-.btn-form {
-	width: 340px;
- 	border: 0;
- 	font-size: 15px;
- 	margin-top: 16px;
- 	border-radius: 3px;
- 	cursor: pointer;
-}
-
-.footer {
-	padding: 58px;
-	background: #164d7a;
-}
-
-.credits {
-	font-size: 14px;
-	color: #fff;
-	margin: 0;
-	margin-left: 413px;
-}	
+	</section>
+	<section id="request" class="request">
+		<div class="container">
+			<h2 class="section-title">
+				Форма заказа билета в будущее
+			</h2>
+			<form action="#" class="form">
+				<input type="text" placeholder="Имя" name="name" class="input" required>
+				<input type="email" placeholder="E-mail" name="email" class="input" required>
+				<input type="tel" placeholder="Телефон" name="phone" class="input" required>
+				<input type="text" placeholder="Куда я полечу в ближайшее время?" name="text" class="input" required>
+				<button type="submit" class="btn btn-form">
+					Двигаться к мечте!
+				</button>
+			</form>	
+					
+				
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<p class="credits">
+				© Все мои мечты защищены моим трудолюбием
+			</p>
+		</div>
+	</footer>
+</body>
+</html>
